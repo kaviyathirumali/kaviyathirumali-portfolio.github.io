@@ -1,0 +1,174 @@
+*{
+    line-height: 1.5;
+}
+.home h1{
+    font-size: 50px;
+}
+.home h2{
+    font-weight: 200;
+    background-image: linear-gradient(to right, red,blue,black);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 30px;
+}
+.home h3{
+    display: none;
+}
+.full-grid{
+    display: flex;
+}
+.about h1:hover,.skill h1:hover,.project h1:hover,.contact h1:hover ,.tools h1:hover{
+    color: red;
+}
+.about h1,.skill h1,.tools h1,.project h1,.contact h1, .internship-part h1{
+    box-sizing: border-box;
+    border: 2px solid rgb(19, 149, 167);
+    width: 200px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.internship-part .internship{
+    margin-bottom: 20px;
+}
+.about-education h2, .project-1-text h2,.project-2-text h2,.internship h2{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(31, 10, 155);
+}
+.about li{
+    width:300px;
+}
+.skill-list {
+    margin-left: 20px;
+}
+.skill-list svg{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.skill-list img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.skill-list .span1{
+    color: orangered;
+}
+.skill-list .span2{
+    color: blue;
+}
+.skill-list .span3{
+    color: red;
+    background-color: yellow;
+}
+.skill-list .span4{
+    color: blue;
+}
+.skill-list .span5{
+    color: aqua;
+}
+.project-1-content,.project-2-content{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.project-1-text li, .project-2-text li,.internship li, .about-education li, .tools li{
+    list-style: circle;
+}
+.internship {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.internship p{
+    font-weight: bold;
+}
+.project-1-text p,.project-2-text p{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.project-1 button,.project-2 button{
+    float: right;
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+}
+.project-1-image img, .project-2-image img{
+    width: 250px;
+    height: 150px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.contact svg{
+    margin-right: 10px;
+}
+.resume button{
+    font-size: 25px;
+    margin-right: 10px;
+    border: none;
+}
+.home hr, .internship-part hr{
+    display: none;
+}
+.about h1, .skill h1, .tools h1, .contact h1{
+    margin-bottom: 10px;
+}
+.project-1 .tittle1, .project-2 .tittle2{
+    list-style:circle;
+    font-size: 30px;
+}
+@media screen and (max-width:780px){
+    .home h1{
+        font-size: 2.50rem;
+        letter-spacing: -2px;
+        line-height: 3rem;
+        margin-top: 20px;
+    }
+    .home hr, .internship-part hr{
+        display: block;
+    }
+    .home h3{
+        display: flex;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .home h3 p{
+        margin-left: 10px;
+        font-size: 30px;
+    }
+    .full-grid{
+        display: block;
+    }
+    .about-education h2, .project-1-text h2,.project-2-text h2,.internship h2{
+        letter-spacing: -.8px;
+        line-height: 2.25rem;
+        font-size: 1.500rem;
+        font-weight: 700;
+        color: rgb(31, 10, 155);
+    }
+    .project-1-content,.project-2-content{
+        display: block;
+    }
+    .project-1 button,.project-2 button{
+        float: left;
+    }
+    .project-1-image .image img, .project-2-image .image img{
+        margin-top: 50px;
+        justify-content: center;
+    }
+    .about-education, .skill li,.tools li, .contact-list p,.contact .resume{
+        margin-left: 10px;
+    }
+    .about h1,.skill h1,.tools h1,.project h1,.contact h1, .internship-part h1{
+        font-size: 2rem;
+        letter-spacing: -2px;
+        line-height: 3.375rem;
+    }
+    .tools h1, .skill h1{
+        width: 150px;
+    }
+    .contact h1{
+        width: 180px;
+    }
+}
